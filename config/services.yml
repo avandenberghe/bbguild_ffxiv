@@ -1,6 +1,11 @@
 services:
     avathar.bbguild_ffxiv.installer:
         class: avathar\bbguild_ffxiv\game\ffxiv_installer
+        arguments:
+            - '@dbal.conn'
+            - '@cache'
+            - '@config'
+            - '@user'
 
     avathar.bbguild_ffxiv.provider:
         class: avathar\bbguild_ffxiv\game\ffxiv_provider
