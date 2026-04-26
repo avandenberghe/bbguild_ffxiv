@@ -27,7 +27,7 @@
     "version-check": {
       "host": "www.avathar.be",
       "directory": "/versioncheck",
-      "filename": "bbguild_ffxiv.json",
+      "filename": "bbguild-ffxiv.json",
       "ssl": true
     }
   }
