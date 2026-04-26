@@ -21,8 +21,8 @@ class release_2_0_0_a1 extends \phpbb\db\migration\migration
 
 	public function effectively_installed()
 	{
-		return isset($this->config['bbguildffxiv_version'])
-			&& version_compare($this->config['bbguildffxiv_version'], '2.0.0-a1', '>=');
+		return isset($this->config['bbguild_ffxiv_version'])
+			&& version_compare($this->config['bbguild_ffxiv_version'], '2.0.0-a1', '>=');
 	}
 
 	public function update_data()
@@ -35,12 +35,12 @@ class release_2_0_0_a1 extends \phpbb\db\migration\migration
 	public function revert_data()
 	{
 		return [
-			['config.remove', ['bbguildffxiv_version']],
+			['config.remove', ['bbguild_ffxiv_version']],
 		];
 	}
 
 	public function set_version()
 	{
-		$this->config->set('bbguildffxiv_version', '2.0.0-a1');
+		$this->config->set('bbguild_ffxiv_version', '2.0.0-a1');
 	}
 }
