@@ -2,19 +2,19 @@
 /**
  * bbGuild FFXIV Extension
  *
- * @package   bbguild_ffxiv v2.0
+ * @package   bbguildffxiv v2.0
  * @copyright 2018 avathar.be
  * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  */
 
-namespace avathar\bbguild_ffxiv;
+namespace avathar\bbguildffxiv;
 
 use phpbb\extension\base;
 
 /**
  * Class ext
  *
- * @package avathar\bbguild_ffxiv
+ * @package avathar\bbguildffxiv
  */
 class ext extends base
 {

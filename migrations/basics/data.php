@@ -5,12 +5,12 @@
  * Seeds Final Fantasy XIV factions, classes, races, and roles
  * by calling the existing installer service.
  *
- * @package   avathar\bbguild_ffxiv
+ * @package   avathar\bbguildffxiv
  * @copyright 2018 avathar.be
  * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  */
 
-namespace avathar\bbguild_ffxiv\migrations\basics;
+namespace avathar\bbguildffxiv\migrations\basics;
 
 class data extends \phpbb\db\migration\container_aware_migration
 {
@@ -80,7 +80,7 @@ class data extends \phpbb\db\migration\container_aware_migration
 
 	private function get_installer()
 	{
-		return new \avathar\bbguild_ffxiv\game\ffxiv_installer(
+		return new \avathar\bbguildffxiv\game\ffxiv_installer(
 			$this->container->get('dbal.conn'),
 			$this->container->get('cache.driver'),
 			$this->container->get('config'),

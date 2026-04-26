@@ -5,21 +5,21 @@
  * Installs Final Fantasy XIV factions, classes/jobs, races, and roles.
  * Extends the abstract_game_install from bbGuild core.
  *
- * @package   bbguild_ffxiv v2.0
+ * @package   bbguildffxiv v2.0
  * @copyright 2018 avathar.be
  * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  * @author    Brytor (Legion of Altana)
  * @author    Sajaki
  */
 
-namespace avathar\bbguild_ffxiv\game;
+namespace avathar\bbguildffxiv\game;
 
 use avathar\bbguild\model\games\abstract_game_install;
 
 /**
  * Class ffxiv_installer
  *
- * @package avathar\bbguild_ffxiv\game
+ * @package avathar\bbguildffxiv\game
  */
 class ffxiv_installer extends abstract_game_install
 {

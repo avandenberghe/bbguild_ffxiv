@@ -1,5 +1,5 @@
 # bbGuild - Final Fantasy XIV
-[![Tests](https://github.com/avatharbe/bbguild_ffxiv/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguild_ffxiv/actions/workflows/tests.yml)
+[![Tests](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml/badge.svg)](https://github.com/avatharbe/bbguildffxiv/actions/workflows/tests.yml)
 
 Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/avandenberghe/bbguild).
 
@@ -20,7 +20,7 @@ Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/
 ## Installation
 
 1. Ensure bbGuild core (`avathar/bbguild`) is installed and enabled.
-2. Copy the `bbguild_ffxiv` folder to `/ext/avathar/bbguild_ffxiv/`.
+2. Copy the `bbguildffxiv` folder to `/ext/avathar/bbguildffxiv/`.
 3. Navigate in the ACP to `Customise -> Manage extensions`.
 4. Look for `bbGuild - Final Fantasy XIV` under Disabled Extensions and click `Enable`.
 5. Go to ACP > bbGuild > Games and install the **Final Fantasy XIV** game.
@@ -29,7 +29,7 @@ Game plugin that adds Final Fantasy XIV support to [bbGuild](https://github.com/
 
 1. Navigate in the ACP to `Customise -> Extension Management -> Extensions`.
 2. Find `bbGuild - Final Fantasy XIV` under Enabled Extensions and click `Disable`.
-3. To permanently uninstall, click `Delete Data` and then delete the `/ext/avathar/bbguild_ffxiv` folder.
+3. To permanently uninstall, click `Delete Data` and then delete the `/ext/avathar/bbguildffxiv` folder.
 
 **Note:** Disabling the extension does not delete existing guild or player data. Your roster and player records remain intact in bbGuild core.
 

@@ -4,12 +4,12 @@
  *
  * Registers Final Fantasy XIV as a game plugin with bbGuild core.
  *
- * @package   bbguild_ffxiv v2.0
+ * @package   bbguildffxiv v2.0
  * @copyright 2018 avathar.be
  * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  */
 
-namespace avathar\bbguild_ffxiv\game;
+namespace avathar\bbguildffxiv\game;
 
 use avathar\bbguild\model\games\game_provider_interface;
 use avathar\bbguild\model\games\game_install_interface;
@@ -18,7 +18,7 @@ use avathar\bbguild\model\games\game_api_interface;
 /**
  * Class ffxiv_provider
  *
- * @package avathar\bbguild_ffxiv\game
+ * @package avathar\bbguildffxiv\game
  */
 class ffxiv_provider implements game_provider_interface
 {
@@ -83,7 +83,7 @@ class ffxiv_provider implements game_provider_interface
 	 */
 	public function get_images_path(): string
 	{
-		return $this->ext_manager->get_extension_path('avathar/bbguild_ffxiv', true) . 'images/';
+		return $this->ext_manager->get_extension_path('avathar/bbguildffxiv', true) . 'images/';
 	}
 
 	/**

@@ -1,5 +1,5 @@
 {
-  "name": "avathar/bbguild-ffxiv",
+  "name": "avathar/bbguildffxiv",
   "type": "phpbb-extension",
   "description": "Final Fantasy XIV game plugin for bbGuild. Provides FFXIV classes, jobs, races, and Grand Company factions.",
   "homepage": "https://github.com/avandenberghe/bbguild",
@@ -27,7 +27,7 @@
     "version-check": {
       "host": "www.avathar.be",
       "directory": "/versioncheck",
-      "filename": "bbguild-ffxiv.json",
+      "filename": "bbguildffxiv.json",
       "ssl": true
     }
   }
